@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-# Image Recognizer 
+# Ethnic Group REcognizer
 Our Ethnic Group Recognizer can classify 12 different types of Ethnic groups all over world. Our model can provide upto +-86% accurate result. <br/>
 
 The types of Ethinic groups which I worked on are given below- <br/>
