@@ -1,0 +1,9 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+- jekyll-remote-theme
+
+title: Ethnic Group Recognizer
+description: An image classification API that classifies 12 different types of Ethnic group all over the world.
+
+author:
+  name: Mohammed Tanvir Hossain
