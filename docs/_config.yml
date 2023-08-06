@@ -7,3 +7,26 @@ description: An image classification API that classifies 12 different types of E
 
 author:
   name: Mohammed Tanvir Hossain
+
+
+avatar: "picture/mig-31.jpg"
+round-avatar: true
+post_search: true
+         
+navbar-img: "picture/mig-31.jpg"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "Pic.jpg"
+
+
+navbar-links:
+  About: "HTML/About.html"
+  Resources:
+    - Categories: "HTML/category.html"
+    - History: "HTML/histoty.html"
+  Recognizer: "HTML/jet_recognizer.html"
+
+social-network-links:
+  email: "shoaibshahriar01@gmail.com"
+  rss: true 
+  facebook: "https://www.facebook.com/shoaib.sharar"
+  github: Shoaib-33

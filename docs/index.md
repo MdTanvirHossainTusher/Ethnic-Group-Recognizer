@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Home
 layout: page
 ---
@@ -19,4 +19,4 @@ The types of Ethinic groups which I worked on are given below- <br/>
 9. Qiang people
 10. Tatar people
 11. Tripuri people
-12. Uzbeks
+12. Uzbeks -->

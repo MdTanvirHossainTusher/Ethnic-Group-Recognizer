@@ -1,0 +1,211 @@
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the last value (0.0 to 1.0) to control the darkness */
+}
+
+/* 
+.big-image1 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("../images/tatar.png");
+}
+
+.big-image2 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("../images/tatar2.jpeg");
+}
+
+.big-image3 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("../images/uzbeks.jpg");
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #0c0d0ca1;
+    color: white;
+    margin-left: -900px;
+    padding: 30px;
+    width: 430px;
+    border-radius: 20px;
+    height: 470px;
+}
+
+
+.box h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 94px;
+}
+
+.box button {
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+span {
+    content: "\00BB";
+    margin-left: 5px;
+} */
+
+/* Common styles for all devices */
+.big-image1,
+.big-image2,
+.big-image3 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.big-image1 {
+    background-image: url("../images/tatar.png");
+}
+
+.big-image2 {
+    background-image: url("../images/tatar2.jpeg");
+}
+
+.big-image3 {
+    background-image: url("../images/uzbeks.jpg");
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #0c0d0ca1;
+    margin-left: -900px;
+    color: white;
+    padding: 30px;
+    width: 430px;
+    border-radius: 20px;
+    height: 470px;
+}
+
+.box h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 94px;
+}
+
+.box button {
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+span {
+    content: "\00BB";
+    margin-left: 5px;
+}
+
+/* Media Queries for Different Devices */
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    .box {
+        width: 20%;
+        margin-left: -380px;
+        height: 150px;
+        margin-top: 148px;
+    }
+
+    .box h1 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    .box button {
+        margin-top: 20px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 576px) and (max-width: 992px) {
+    .box {
+        width: 34%;
+        margin-left: -380px;
+        height: 250px;
+        /* margin-top: 148px; */
+    }
+
+    .box h1 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+
+    .box button {
+        margin-top: -5px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+    .box {
+        /* width: 34%;
+        margin-left: -380px;
+        height: 300px; */
+        /* margin-top: 148px; */
+        margin-left: -800px;
+        width: 430px;
+        height: 400px;
+    }
+
+    .box h1 {
+        /* font-size: 68px;
+        line-height: 65px; */
+        font-size: 68px;
+        font-weight: 500;
+        line-height: 80px;
+    }
+
+    .box button {
+        margin-top: -5px;
+    }
+
+    /* Styles remain the same for large devices */
+}
