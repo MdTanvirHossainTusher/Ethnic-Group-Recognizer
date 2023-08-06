@@ -9,11 +9,17 @@ h1 {
     font-size: 50px;
     background-color: black;
     margin-bottom: 44px;
+    text-decoration: none;
 }
 
-/* .bgcolor {
-    background-color: #232321;
-} */
+p {
+    text-align: justify;
+    text-decoration: none;
+}
+
+.bgcolor {
+    margin-bottom: 40px;
+}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -35,4 +41,57 @@ h1 {
     .text-muted i {
         margin: 0 10px;
     }
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #dae3e7;
+    color: rgb(0, 0, 0);
+}
+
+.choose-file h3 {
+    color: white;
+}
+
+.choose-file ol li {
+    text-align: left;
+    color: white;
+}
+
+.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.centered-div {
+    text-align: center;
+    padding: 20px;
+    /* background-color: white; */
+    background-color: #3c3c3ce8;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 46px;
+}
+
+.res-show {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    color: white;
 }

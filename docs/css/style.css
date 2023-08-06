@@ -1,33 +1,14 @@
-/* .carousel-inner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-
-} */
-
-/* body {
-    margin: 0;
-    padding: 0;
-} */
-
 .sticky-header {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1000;
-    /* Ensures header is on top of other elements */
     padding: 20px 0;
     background-color: rgba(10, 10, 10, 0.58);
-    /* Adjust the transparency here */
 }
 
 .header-container {
     max-width: 1200px;
-    /* Adjust the container width as needed */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -36,8 +17,6 @@
 
 .header-logo img {
     height: 50px;
-    /* Adjust the logo height as needed */
-    /* Add any other styles for the logo here */
 }
 
 .header-menu ul {
@@ -54,9 +33,7 @@
 .header-menu a {
     color: white;
     text-decoration: none;
-    /* Add any other styles for the menu links here */
 }
-
 
 
 /* Common styles for all devices */
@@ -152,7 +129,6 @@ span {
         width: 34%;
         margin-left: -380px;
         height: 250px;
-        /* margin-top: 148px; */
     }
 
     .box h1 {
@@ -168,18 +144,12 @@ span {
 /* Large devices (desktops) */
 @media (min-width: 992px) {
     .box {
-        /* width: 34%;
-        margin-left: -380px;
-        height: 300px; */
-        /* margin-top: 148px; */
         margin-left: -800px;
         width: 430px;
         height: 400px;
     }
 
     .box h1 {
-        /* font-size: 68px;
-        line-height: 65px; */
         font-size: 68px;
         font-weight: 500;
         line-height: 80px;
@@ -188,6 +158,23 @@ span {
     .box button {
         margin-top: -5px;
     }
+}
 
-    /* Styles remain the same for large devices */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #dae3e7;
+    color: rgb(0, 0, 0);
 }
