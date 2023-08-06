@@ -1,32 +1,32 @@
-remote_theme: daviddarnes/alembic@main
-plugins:
-- jekyll-remote-theme
+# remote_theme: daviddarnes/alembic@main
+# plugins:
+# - jekyll-remote-theme
 
-title: Ethnic Group Recognizer
-description: An image classification API that classifies 12 different types of Ethnic group all over the world.
+# title: Ethnic Group Recognizer
+# description: An image classification API that classifies 12 different types of Ethnic group all over the world.
 
-author:
-  name: Mohammed Tanvir Hossain
+# author:
+#   name: Mohammed Tanvir Hossain
 
 
-avatar: "picture/mig-31.jpg"
-round-avatar: true
-post_search: true
+# avatar: "picture/mig-31.jpg"
+# round-avatar: true
+# post_search: true
          
-navbar-img: "picture/mig-31.jpg"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "Pic.jpg"
+# navbar-img: "picture/mig-31.jpg"
+# #footer-img: "/assets/img/bgimage.png"
+# #page-img: "Pic.jpg"
 
 
-navbar-links:
-  About: "HTML/About.html"
-  Resources:
-    - Categories: "HTML/category.html"
-    - History: "HTML/histoty.html"
-  Recognizer: "HTML/jet_recognizer.html"
+# navbar-links:
+#   About: "HTML/About.html"
+#   Resources:
+#     - Categories: "HTML/category.html"
+#     - History: "HTML/histoty.html"
+#   Recognizer: "HTML/jet_recognizer.html"
 
-social-network-links:
-  email: "shoaibshahriar01@gmail.com"
-  rss: true 
-  facebook: "https://www.facebook.com/shoaib.sharar"
-  github: Shoaib-33
+# social-network-links:
+#   email: "shoaibshahriar01@gmail.com"
+#   rss: true 
+#   facebook: "https://www.facebook.com/shoaib.sharar"
+#   github: Shoaib-33

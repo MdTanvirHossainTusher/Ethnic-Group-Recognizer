@@ -1,0 +1,38 @@
+body {
+    background-color: #232321;
+}
+
+h1 {
+    color: #fff;
+    padding: 38px;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    margin-bottom: 44px;
+}
+
+/* .bgcolor {
+    background-color: #232321;
+} */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    a {
+        color: initial;
+
+        &:hover {
+            text-decoration: initial;
+        }
+    }
+
+    .text-muted i {
+        margin: 0 10px;
+    }
+}
