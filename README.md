@@ -46,4 +46,4 @@ I deployed the model to `HuggingFace Spaces Gradio App`. The implementation can 
 <img src = "deployment/localhost.PNG" width="700" height="350"><br/>
 
 # API integration with GitHub Pages
-The deployed model API is integrated [here](https://mdtanvirhossaintusher.github.io/Ethnic-Group-Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
+The deployed model API is integrated [here](https://mdtanvirhossaintusher.github.io/Ethnic_Group_Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
