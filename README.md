@@ -36,14 +36,8 @@ Detail implementation of data augmentation can be found in `notebooks/data_prepa
 # Model Deployment
 I deployed the model to `HuggingFace Spaces Gradio App`. The implementation can be found in `deployment` folder. You can visualize and check the models output from [here](https://huggingface.co/spaces/MdTanvirHossain/Ethnic-Group-Recognizer). <br/>
 
-**Gradio live demo:** <br/>
-<img src = "deployment/gradio_live.PNG" width="700" height="350"><br/>
-
 **Huggingface Space demo:** <br/>
 <img src = "deployment/huggingface.PNG" width="700" height="350"><br/>
-
-**Localhost demo:** <br/>
-<img src = "deployment/localhost.PNG" width="700" height="350"><br/>
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://mdtanvirhossaintusher.github.io/Ethnic_Group_Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
